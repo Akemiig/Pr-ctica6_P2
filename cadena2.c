@@ -7,7 +7,7 @@ int main() {
     char a[20];
     int respuesta=1;
     while(respuesta){
-		printf("(ab)|(cd)\n\n");
+	printf("(ab)*|(cd)*\n\n");
         printf("Ingresa la cadena:");
         scanf("%s", a);
         if(validar(a)){
